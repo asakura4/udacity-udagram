@@ -12,6 +12,3 @@ export const sequelize = new Sequelize({
   storage: ":memory:",
 });
 
-// export const sequelize = new Sequelize(
-// 'postgres://pgadmin:Hello12345@udagram.cbm7jgaxnv7a.us-west-1.rds.amazonaws.com:5432/postgres'
-// )
