@@ -17,10 +17,6 @@ jobs:
       - eb/setup
       # install dependencies in both apps
       - run:
-          name: hello
-          command: |
-            echo "hello-world"
-      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
